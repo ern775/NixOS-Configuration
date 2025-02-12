@@ -1,0 +1,20 @@
+{...}: {
+  imports = [
+    ./audio.nix
+    ./boot.nix
+    ./display.nix
+    ./fonts.nix
+    ./nix.nix
+    ./hardware.nix
+    ./hp.nix
+    ./intel.nix
+    ./internationalisation.nix
+    ./journal.nix
+    ./networking.nix
+    ./packages.nix
+    ./programs.nix
+    ./security.nix
+    ./services.nix
+    ./users.nix
+  ];
+}
